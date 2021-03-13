@@ -1,0 +1,43 @@
+.loader
+{
+    font-family: 'ZCOOL KuaiLe', cursive;
+    font-size: 40px;
+    height:50px;
+    animation: rotate 3s linear infinite;
+    border: transparent;
+    position: absolute; /* child */
+    top: 45%;
+    left: 46%;
+    transition: opacity 1s ease-out;
+}
+
+.circle
+{
+    display: inline-block;
+    background-image: url("../images/coin.jpg");
+    background-size: cover;
+    height:40px;
+    width:100px;
+    transform: scale(0);
+    animation: grow 1.5s linear infinite;
+}
+
+.main
+{
+  opacity: 0;
+  display: none;
+  transition: opacity 2s ease-in;
+}
+
+
+@keyframes rotate {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  @keyframes grow {
+    50% {
+      transform: scale(1);
+    }
+  }

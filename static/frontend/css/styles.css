@@ -1,0 +1,144 @@
+body::before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.6 ;
+  background-image:  url("../images/saudi_riyal.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+}
+
+.github-corner:hover .octo-arm {
+  animation: octocat-wave 560ms ease-in-out
+}
+
+@keyframes octocat-wave {
+
+  0%,
+  100% {
+    transform: rotate(0)
+  }
+
+  20%,
+  60% {
+    transform: rotate(-25deg)
+  }
+
+  40%,
+  80% {
+    transform: rotate(10deg)
+  }
+}
+
+@media (max-width:500px) {
+  .github-corner{
+    display: none !important;
+  }
+}
+
+.consent-box {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  text-align: center;
+  font-size: 14px;
+  display: none;
+  z-index: 1000;
+}
+
+.chart{
+  width: 600px;
+  height: 300px;
+  display:block;
+
+}
+
+.numbers{
+  color:#000;
+  margin:0;
+  padding: 0;
+  width: 50px;
+  height :100px;
+  display: inline-block;
+  float: left;
+}
+
+.numbers li{
+  list-style: none;
+  height: 150px;
+  position: relative;
+  bottom :145px;
+
+}
+
+.numbers span{
+  font-size: 12px;
+  font-weight: 600;
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+}
+
+.bars{
+  color: #000;
+  font-size: 12px;
+  font-weight: 600;
+  margin: 0;
+  padding : 0;
+  display: inline-block;
+  width: 500px;
+  height: 300px;
+  
+}
+
+.bars li{
+  display: table-cell;
+  width: 100px;
+  height: 300px;
+  position: relative;
+
+}
+
+.bars span{
+  width: 100%;
+  position: absolute;
+  bottom: -30px;
+  text-align: center;
+  margin-left: 20px;
+
+}
+
+.bars .bar{
+  display: block;
+  background : rgb(52, 54, 56);
+  width: 50px;
+  height: 2%;
+  position: absolute;
+  bottom: 0;
+  margin-left: 25px;
+  text-align: center;
+  box-shadow: 0 0 10px 0 rgba(85, 89, 90, 0.5);
+  transition: 0.5s;
+  transition-property: background;
+}
+
+.bars .bar:hover{
+  background: rgb(22, 22, 22);
+  cursor: pointer;
+
+}
+
+.bars .bar::before{
+  color: rgb(22, 21, 21);
+  content: attr(data-percentage)'%';
+  position: relative;
+  bottom:20px;
+}
+
