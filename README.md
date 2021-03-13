@@ -13,8 +13,8 @@ This is a simple image classification Flask app trained on the top of Keras API.
 
 ## Technical Aspect
 This project is divided into three part:
-1. Data collection and preprocessing.
-2. Training a deep learning model using Keras.
+1. Data collection and preprocessing. [Code here](https://github.com/mpfouziya/Saudi-Riyal-Image-Recognition/blob/main/WebScrapeCurrencyImages.ipynb)
+2. Training a deep learning model using Keras. [Code here](https://github.com/mpfouziya/Saudi-Riyal-Image-Recognition/blob/main/DataPreprocessingAndModelCreation.ipynb)
 3. Building a Flask web app.
     - A user can upload image from the system.
     - After uploading the image, the predictions are displayed on a __Bar Chart__.
