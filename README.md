@@ -3,7 +3,7 @@
 
 ## Demo
 <p align="center">
-<img width="500" alt="postgreSQL" src="https://user-images.githubusercontent.com/37532698/111037245-bb499d00-843c-11eb-9447-41687bacd105.jpg"></p>
+<img width="700" alt="postgreSQL" src="https://user-images.githubusercontent.com/37532698/111037245-bb499d00-843c-11eb-9447-41687bacd105.jpg"></p>
 
 ## Overview
 This is a simple image classification Flask app trained on the top of Keras API. The trained CNN model (`cnnModel.h5`) takes an image (Saudi Arabian Riyal) as an input and predict the class of image from __1, 5, 10, 20, 50, 100, 200, 500__ denomination.
